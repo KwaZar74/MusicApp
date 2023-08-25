@@ -43,7 +43,7 @@
             // 
             // openFileDialog1
             // 
-            openFileDialog1.FileName = "openFileDialog1";
+            openFileDialog1.Filter = "(*.userkey)|*.userkey";
             openFileDialog1.FileOk += openFileDialog1_FileOk;
             // 
             // button1
@@ -144,6 +144,7 @@
             label1.Size = new Size(66, 20);
             label1.TabIndex = 10;
             label1.Text = "Готово";
+            label1.Visible = false;
             // 
             // label5
             // 
@@ -155,6 +156,7 @@
             label5.Size = new Size(66, 20);
             label5.TabIndex = 11;
             label5.Text = "Готово";
+            label5.Visible = false;
             // 
             // FirstMeet
             // 
